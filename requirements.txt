@@ -1,0 +1,11 @@
+discord.py>=2.7.1
+firebase-admin>=7.5.0
+python-dotenv>=1.0.0
+
+# AI providers -- all four are installed by default so any AI_PROVIDER_MAIN /
+# AI_PROVIDER_FAST choice works out of the box. If you only ever use one
+# provider, it's safe to remove the other packages; each provider gives a
+# clear "pip install X" error if you pick it without its package installed.
+anthropic>=0.118.0
+google-genai>=2.14.0
+openai>=2.48.0
